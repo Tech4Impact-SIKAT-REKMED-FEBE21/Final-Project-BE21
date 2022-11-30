@@ -206,7 +206,7 @@ Response
 }
 ```
 
-### **Get User ById (Admin)**
+### **Get User By Id (Admin)**
 Request
 ```
 GET : localhost:9051/user/6386d1494d349aa38a50ceae
@@ -233,7 +233,7 @@ Response
 }
 ```
 
-### **Update User ById (Admin)**
+### **Update User By Id (Admin)**
 Request
 ```
 PUT : localhost:9051/user/6386d1494d349aa38a50ceae
@@ -271,7 +271,7 @@ Response
 }
 ```
 
-### **Delete User ById (Admin)**
+### **Delete User By Id (Admin)**
 Request
 ```
 DELETE : localhost:9051/user/6386d1494d349aa38a50ceae
@@ -557,7 +557,7 @@ Response
 }
 ```
 
-### **Delete Pasien By NIK (Admin)**
+### **Delete Dokter By NIP (Admin)**
 Request
 ```
 DELETE : localhost:9051/dokter/27465829345
@@ -575,10 +575,10 @@ Response
 }
 ```
 
-### **Update Pasien By NIK (Admin)**
+### **Update Dokter By NIP (Admin)**
 Request
 ```
-PUT : localhost:9051/dokter/pasien/200510285
+PUT : localhost:9051/dokter/27465829345
 ```
 
 Masukkan Authorization dari login admin
@@ -757,7 +757,7 @@ Response
 ### **Update Rekam Medis By NIK (Admin)**
 Request
 ```
-PUT : localhost:9051/dokter/rekmed/2005101085
+PUT : localhost:9051/rekmed/2005101085
 ```
 
 Masukkan Authorization dari login admin
