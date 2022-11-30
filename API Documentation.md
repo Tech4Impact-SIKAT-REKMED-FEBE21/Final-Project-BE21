@@ -153,7 +153,7 @@ Response
 }
 ```
 
-### **Get AllUser (Admin)**
+### **Get All User (Admin)**
 Request
 ```
 GET : localhost:9051/user/allUser
@@ -796,7 +796,7 @@ Response
 }
 ```
 
-### **Fitur Pasien (User)**
+## **Fitur Pasien (User)**
 
 ### **Get Rekam Medis By NIK (User)**
 Request
