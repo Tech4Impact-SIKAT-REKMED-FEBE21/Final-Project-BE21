@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express()
 const db = require('./config/db');
+var cors = require('cors');
 
 const PORT = process.env.PORT || 9050;
 
@@ -13,6 +14,7 @@ then((result) => {
     console.log(err)
 });
 
+app.use(cors())
 app.use(express.json())
 app.use(allRoutes)
 
