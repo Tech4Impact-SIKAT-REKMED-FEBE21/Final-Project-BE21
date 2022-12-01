@@ -5,7 +5,7 @@
 ### **Register Admin**
 Request
 ```
-POST : localhost:9051/user/register
+POST : https://final-project-be21-production.up.railway.app/user/register
 ```
 
 Body
@@ -30,7 +30,7 @@ Response
 ### **Login Admin**
 Request
 ```
-POST : localhost:9051/user/login
+POST : https://final-project-be21-production.up.railway.app/user/login
 ```
 
 Body
@@ -53,7 +53,7 @@ Response
 ### **Get Profile Admin**
 Request
 ```
-GET : localhost:9051/user/profile
+GET : https://final-project-be21-production.up.railway.app/user/profile
 ```
 
 Masukkan Authorization dari login admin
@@ -79,7 +79,7 @@ Response
 ### **Update Profile Admin**
 Request
 ```
-PUT : localhost:9051/user/profile
+PUT : https://final-project-be21-production.up.railway.app/user/profile
 ```
 
 Masukkan Authorization dari login admin
@@ -109,7 +109,7 @@ Response
 ### **Register User**
 Request
 ```
-POST : localhost:9051/user/register
+POST : https://final-project-be21-production.up.railway.app/user/register
 ```
 
 Body
@@ -133,7 +133,7 @@ Response
 ### **Login User**
 Request
 ```
-POST : localhost:9051/user/login
+POST : https://final-project-be21-production.up.railway.app/user/login
 ```
 
 Body
@@ -156,7 +156,7 @@ Response
 ### **Get All User (Admin)**
 Request
 ```
-GET : localhost:9051/user/allUser
+GET : https://final-project-be21-production.up.railway.app/user/allUser
 ```
 
 Masukkan Authorization dari login admin
@@ -209,7 +209,7 @@ Response
 ### **Get User By Id (Admin)**
 Request
 ```
-GET : localhost:9051/user/6386d1494d349aa38a50ceae
+GET : https://final-project-be21-production.up.railway.app/user/6386d1494d349aa38a50ceae
 ```
 
 Masukkan Authorization dari login admin
@@ -236,7 +236,7 @@ Response
 ### **Update User By Id (Admin)**
 Request
 ```
-PUT : localhost:9051/user/6386d1494d349aa38a50ceae
+PUT : https://final-project-be21-production.up.railway.app/user/6386d1494d349aa38a50ceae
 ```
 
 Masukkan Authorization dari login admin
@@ -274,7 +274,7 @@ Response
 ### **Delete User By Id (Admin)**
 Request
 ```
-DELETE : localhost:9051/user/6386d1494d349aa38a50ceae
+DELETE : https://final-project-be21-production.up.railway.app/user/6386d1494d349aa38a50ceae
 ```
 
 Masukkan Authorization dari login admin
@@ -295,7 +295,7 @@ Response
 ### **Add Pasien (Admin)**
 Request
 ```
-POST : localhost:9051/dokter/addPasien
+POST : https://final-project-be21-production.up.railway.app/dokter/addPasien
 ```
 
 Masukkan Authorization dari login admin
@@ -325,7 +325,7 @@ Response
 ### **Get All Pasien (Admin)**
 Request
 ```
-GET : localhost:9051/dokter/pasien/all
+GET : https://final-project-be21-production.up.railway.app/dokter/pasien/all
 ```
 
 Masukkan Authorization dari login admin
@@ -375,7 +375,7 @@ Response
 ### **Get Pasien By NIK (Admin)**
 Request
 ```
-GET : localhost:9051/dokter/pasien/200510285
+GET : https://final-project-be21-production.up.railway.app/dokter/pasien/200510285
 ```
 
 Masukkan Authorization dari login admin
@@ -403,7 +403,7 @@ Response
 ### **Delete Pasien By NIK (Admin)**
 Request
 ```
-DELETE : localhost:9051/dokter/pasien/200510285
+DELETE : https://final-project-be21-production.up.railway.app/dokter/pasien/200510285
 ```
 
 Masukkan Authorization dari login admin
@@ -421,7 +421,7 @@ Response
 ### **Update Pasien By NIK (Admin)**
 Request
 ```
-PUT : localhost:9051/dokter/pasien/200510285
+PUT : https://final-project-be21-production.up.railway.app/dokter/pasien/200510285
 ```
 
 Masukkan Authorization dari login admin
@@ -463,7 +463,7 @@ Response
 ### **Add Dokter (Admin)**
 Request
 ```
-POST : localhost:9051/dokter/addDokter
+POST : https://final-project-be21-production.up.railway.app/dokter/addDokter
 ```
 
 Masukkan Authorization dari login admin
@@ -492,7 +492,7 @@ Response
 ### **Get All Dokter (Admin)**
 Request
 ```
-GET : localhost:9051/dokter/allDokter
+GET : https://final-project-be21-production.up.railway.app/dokter/allDokter
 ```
 
 Masukkan Authorization dari login admin
@@ -532,7 +532,7 @@ Response
 ### **Get Dokter By NIP (Admin)**
 Request
 ```
-GET : localhost:9051/dokter/27465829345
+GET : https://final-project-be21-production.up.railway.app/dokter/27465829345
 ```
 
 Masukkan Authorization dari login admin
@@ -560,7 +560,7 @@ Response
 ### **Delete Dokter By NIP (Admin)**
 Request
 ```
-DELETE : localhost:9051/dokter/27465829345
+DELETE : https://final-project-be21-production.up.railway.app/dokter/27465829345
 ```
 
 Masukkan Authorization dari login admin
@@ -578,7 +578,7 @@ Response
 ### **Update Dokter By NIP (Admin)**
 Request
 ```
-PUT : localhost:9051/dokter/27465829345
+PUT : https://final-project-be21-production.up.railway.app/dokter/27465829345
 ```
 
 Masukkan Authorization dari login admin
@@ -619,7 +619,7 @@ Response
 ### **Add Rekam Medis (Admin)**
 Request
 ```
-POST : localhost:9051/rekmed/add
+POST : https://final-project-be21-production.up.railway.app/rekmed/add
 ```
 
 Masukkan Authorization dari login admin
@@ -650,7 +650,7 @@ Response
 ### **Get All Rekam Medis (Admin)**
 Request
 ```
-GET : localhost:9051/rekmed/allRekmed
+GET : https://final-project-be21-production.up.railway.app/rekmed/allRekmed
 ```
 
 Masukkan Authorization dari login admin
@@ -704,7 +704,7 @@ Response
 ### **Get Rekam Medis By NIK (Admin)**
 Request
 ```
-GET : localhost:9051/rekmed/20486935
+GET : https://final-project-be21-production.up.railway.app/rekmed/20486935
 ```
 
 Masukkan Authorization dari login admin
@@ -739,7 +739,7 @@ Response
 ### **Delete Rekam Medis By NIK (Admin)**
 Request
 ```
-DELETE : localhost:9051/rekmed/20486935
+DELETE : https://final-project-be21-production.up.railway.app/rekmed/20486935
 ```
 
 Masukkan Authorization dari login admin
@@ -757,7 +757,7 @@ Response
 ### **Update Rekam Medis By NIK (Admin)**
 Request
 ```
-PUT : localhost:9051/rekmed/2005101085
+PUT : https://final-project-be21-production.up.railway.app/rekmed/2005101085
 ```
 
 Masukkan Authorization dari login admin
@@ -801,7 +801,7 @@ Response
 ### **Get Rekam Medis By NIK (User)**
 Request
 ```
-GET : localhost:9051/pasien/rekmed/2005101085
+GET : https://final-project-be21-production.up.railway.app/pasien/rekmed/2005101085
 ```
 
 Masukkan Authorization dari login user
@@ -839,7 +839,7 @@ Response
 ### **Get Data Pasien By NIK (User)**
 Request
 ```
-GET : localhost:9051/pasien/2005101085
+GET : https://final-project-be21-production.up.railway.app/pasien/2005101085
 ```
 
 Masukkan Authorization dari login user
